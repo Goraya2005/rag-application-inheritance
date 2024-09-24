@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry add langchain-community"
+version = "0.1.0"
+description = "Islamic Inheritance Law"
+authors = ["y"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-community = "^0.3.0"
+langchain-google-genai = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
